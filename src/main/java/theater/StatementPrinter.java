@@ -37,7 +37,7 @@ public class StatementPrinter {
             final int rslt = getAmount(p, getPlay(p));
             result.append(String.format(
                     "  %s: %s (%s seats)%n",
-                    getPlay(p).getName(),
+                    getPlay(p).getName(), 
                     usd(rslt),
                     p.getAudience()
             ));
